@@ -1,4 +1,4 @@
-.container .filter {
+.container .filters {
     color: white;
     height: 70px;
     width: 100%;
@@ -10,7 +10,7 @@
     align-items: flex-end;
 }
 
-.filter button {
+.filters button {
     font-size: 18px;
     color: white;
     background-color: #FF5A5F;
