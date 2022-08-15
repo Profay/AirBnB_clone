@@ -8,10 +8,15 @@ body {
     color: #484848;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
+    position: relative;
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
 }
 
-div {
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    position: relative;
     flex: 1 0 auto;
 }
